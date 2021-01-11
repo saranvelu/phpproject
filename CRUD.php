@@ -8,7 +8,8 @@
 	$id = 0;
 	$update = false;
 
-	if (isset($_POST['save'])) {
+	if (isset($_POST['save'])) 
+	{
 		$name = $_POST['name'];
 		$address = $_POST['address'];
 
